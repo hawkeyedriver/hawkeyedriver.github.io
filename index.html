@@ -1,9 +1,132 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Johns Creek Computer Science</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="homePage.html">
+            <img src="images/lsoFavIcon.png" alt="logo" class="webLogo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="homePage.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About <i class="fa-solid fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="aboutPages/aboutCmdrPage.html">Cmdr. Schenk</a>
+                    <a href="aboutPages/2024-25FCSCalendarFullColor.pdf" target="_blank">FCS Calendar</a>
+                    <a href="aboutPages/Bell Schedule 2024.25.pdf" target="_blank">JCHS Bell Schedule</a>
+                    <a href="aboutPages/JCHS - 24-25 Student Handbook-updated.pdf" target="_blank">JCHS Student Manual</a>
+                    <a href="aboutPages/EmergencyProcedures.pdf" target="_blank">Emergency Procedure</a>
+                    <a href="aboutPages/EvacuationtoStadium.pdf" target="_blank">Stadium Evacuation Map</a>
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=mLHcDGmBcEu6n9p-O6cAwusTiSp83YtIhu8uIZ7XEFRUN0tKQzNWSVpRNURBTzA4UkdRRERIUFNZMi4u" target="_blank">Digital Day Form</a>
+
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Class Info <i class="fa-solid fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="coursePages/istPage.html">IST</a>
+                    <a href="coursePages/cs50Page.html">CS50 - AP</a>
+                    <a href="coursePages/csaPage.html">CSA - AP</a>
+                    <a href="coursePages/embeddedPage.html">Embedded</a>
+                    <a href="coursePages/cloudPage.html">Cloud</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">CTSO & Clubs<i class="fa-solid fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="https://www.fbla.org/" target="_blank">FBLA Website</a>
+                    <a href="https://johnscreekorchestra.com/" target="_blank">JCHS Orchestra</a>
+                    <a href="https://johnscreek.fultonschools.org/" target="_blank">JCHS Website</a>
+                    <a href="https://osp.osmsinc.com/FultonGA/BVModules/CategoryTemplates/Detailed%20List%20with%20Properties/Category.aspx?categoryid=EN713&sortorder=2&page=2" target="_blank">Dues & Fees</a>
+                    <a href="#">Extras</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="blurred-section">
+
+        <div class="blurred-content">
+            <h2>Welcome to</h2>
+            <p>Johns Creek Computer Science</p>
+        </div>
+
+    </section>
+    
+    <div class="contentBg">
+
+    
+        <div class="content">
+            <h1>Research Lab</h1>
+            <p>
+                Welcome to the Research Lab! Here you can access all the information 
+                you need for your course. You can also access resources to help you 
+                study and learn more about the course.
+            </p>
+            <h2>Courses</h2>
+            <p>
+                These are the five courses in the computer science pathway offered 
+                by Johns Creek High School. Thoughout this pathway you are expected 
+                to show rigor and persererance. Performance in your classes will 
+                determine placement in future courses.
+            </p>
+
+            <div class="buttonSection">
+                <div class="button-container">
+                    <a href="coursePages/istPage.html" class="button">
+                        <img src="images/ISTicon.webp" alt="Button 1">
+                        <span>IST</span>
+                    </a>
+                    <a href="coursePages/cs50Page.html" class="button">
+                        <img src="images/cs50Icon.png" alt="Button 2">
+                        <span>CS50</span>
+                    </a>
+                    <a href="coursePages/csaPage.html" class="button">
+                        <img src="images/csaIcon.jpg" alt="Button 3">
+                        <span>CSA</span>
+                    </a>
+                    <a href="coursePages/embeddedPage.html" class="button">
+                        <img src="images/embeddedIcon.png" alt="Button 4">
+                        <span>Embedded</span>
+                    </a>
+                    <a href="coursePages/cloudPage.html" class="button">
+                        <img src="images/cloudIcon.png" alt="Button 5">
+                        <span>Cloud</span>
+                    </a>
+                </div>
+            </div>           
+        </div>
+    </div>
+
+    <script src="hawkEye.js"></script>
+</body>
+
+<footer class="footer">
+    
+    <div class="footer-content">
+
+            <div class="footerLocation">
+                <h2>Location</h2>
+                <p>Johns Creek High School</p>
+                <p>5575 State Bridge Road, Johns Creek, GA 30075</p>
+            </div> 
+            
+            <div class="footerContact">
+                <h2>Contact</h2>
+                <p>schenkr@fultonschools.org</p>
+            </div>  
+
+        <div class="footer-separator"></div>
+
+        <p>&copy; 2022 Hawkeye Consulting, LLC. All rights reserved.</p>
+
+    </div>
+</footer>
+
 </html>
