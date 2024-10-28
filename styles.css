@@ -167,6 +167,8 @@ body {
 
 .button-container {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 100%; /* scalable for mobile */
     flex-direction: row; /* Stack buttons vertically */
     align-items: center; /* Center align buttons */
     text-align: center;
